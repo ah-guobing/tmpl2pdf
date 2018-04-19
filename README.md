@@ -23,6 +23,11 @@
     <td>./serv.jar</td>
     <td>服务文件</td>
   </tr>
+	</tr>
+		<tr>
+    <td>./run.bat</td>
+    <td>Windows下启动脚本</td>
+  </tr>
 </table>
 
 
@@ -31,11 +36,15 @@
 JDK：jdk1.8
 
 ### 服务启动
+&#35;&#35; Linux下启动<br />
 &#35; nohup java -jar serv.jar --server.port=端口号 --pdftmpl.dir.src=PDF模板目录 --pdfout.dir.dest=PDF输出目录 >>./serv.log &<br />
 如：<br />&#35; nohup java -jar serv.jar --server.port=8091 --pdftmpl.dir.src=/root/tmpl2pdf/tmpl/ --pdfout.dir.dest=/root/tmpl2pdf/out/ >>./serv.log &
 
-&#35;&#35; 检测微服务是否正常<br />
+&#35;&#35; Linux下检测服务是否正常<br />
 &#35; netstat -anp | grep 上一步指定的端口号
+
+&#35;&#35; Windows下启动<br />
+双击run.bat
 
 
 
