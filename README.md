@@ -48,7 +48,7 @@ JDK：jdk1.8
 &#35; netstat -anp | grep 上一步指定的端口号
 
 &#35;&#35; Windows下启动<br />
-双击run.bat
+编辑run.bat，修改pdftmpl.dir.src 、pdfout.dir.dest <br />双击run.bat启动服务
 
 
 
