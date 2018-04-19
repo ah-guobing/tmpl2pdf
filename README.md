@@ -62,6 +62,11 @@ JDK：jdk1.8
 	"addr": "中国上海市"
 }</td>
   </tr>
+	  <tr>
+    <td>fontSize</td>
+    <td></td>
+    <td>定义PDF文字字号，如：8，默认值为8</td>
+  </tr>
   <tr>
     <td>lastModifiedTime</td>
     <td></td>
