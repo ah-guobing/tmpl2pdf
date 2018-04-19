@@ -15,6 +15,10 @@
     <td>./tmpl/</td>
     <td>PDF模板文件夹</td>
   </tr>
+	 <tr>
+    <td>./tmpl/tmpl.pdf</td>
+    <td>测试模板，此模板中含有name,addr两个表单文本域</td>
+  </tr>
 	<tr>
     <td>./out/</td>
     <td>存放生成后的PDF文件</td>
