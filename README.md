@@ -5,10 +5,10 @@
 
 <table>
   <tr>
-    <th colspan="2" align="left">目录说明</th>
+    <th colspan="2" align="left">结构说明</th>
   </tr>
   <tr>
-    <th>目录</th>
+    <th>目录/文件</th>
     <th>说明</th>
   </tr>
   <tr>
@@ -18,6 +18,10 @@
 	<tr>
     <td>./out/</td>
     <td>存放生成后的PDF文件</td>
+  </tr>
+		<tr>
+    <td>./serv.jar</td>
+    <td>服务文件</td>
   </tr>
 </table>
 
