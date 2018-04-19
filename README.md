@@ -3,6 +3,24 @@
 使用场景：各类电子协议、电子证书、电子发票的制作<br />
 要求自行使用 Adobe Acrobat 制作PDF表单模板，网上资料很多，请自己查阅。
 
+<table>
+  <tr>
+    <th colspan="2" align="left">目录说明</th>
+  </tr>
+  <tr>
+    <th>目录</th>
+    <th>说明</th>
+  </tr>
+  <tr>
+    <td>./tmpl/</td>
+    <td>PDF模板文件夹</td>
+  </tr>
+	<tr>
+    <td>./out/</td>
+    <td>存放生成后的PDF文件</td>
+  </tr>
+</table>
+
 
 ## 服务端
 ### 环境要求
