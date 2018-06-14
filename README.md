@@ -48,7 +48,7 @@
 JDK：jdk1.8
 
 ### 服务启动
-&#35;&#35; Linux下启动（PDF输出目录需要有写权限）<br />
+&#35;&#35; Linux下启动（PDF输出目录需要有写权限；对于中文字体文件而言，可能是一个字体组合包，此时需要在字体路径后加上：,0 或 ,1 代表使用字体包中的某种风格）<br />
 &#35; nohup java -jar serv.jar --server.port=端口号 --pdftmpl.dir.src=PDF模板目录 --pdfout.dir.dest=PDF输出目录 --pdf.font=使用的字体文件 >>./serv.log &<br />
 如：<br />&#35; nohup java -jar serv.jar --server.port=8091 --pdftmpl.dir.src=/root/tmpl2pdf/tmpl/ --pdfout.dir.dest=/root/tmpl2pdf/out/ --pdf.font=/root/tmpl2pdf/font/simsun.ttc,1  >>./serv.log &
 
