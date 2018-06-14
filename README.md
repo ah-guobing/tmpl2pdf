@@ -15,7 +15,7 @@
     <td>./tmpl/</td>
     <td>PDF模板文件夹</td>
   </tr>
-	 <tr>
+<tr>
     <td>./tmpl/tmpl.pdf</td>
     <td>测试模板，此模板中含有name,addr两个表单文本域</td>
   </tr>
@@ -23,7 +23,15 @@
     <td>./out/</td>
     <td>存放生成后的PDF文件</td>
   </tr>
-		<tr>
+	
+	
+<tr>
+    <td>./font/</td>
+    <td>字体文件夹</td>
+  </tr>
+	
+	
+<tr>
     <td>./serv.jar</td>
     <td>服务文件</td>
   </tr>
@@ -41,8 +49,8 @@ JDK：jdk1.8
 
 ### 服务启动
 &#35;&#35; Linux下启动（PDF输出目录需要有写权限）<br />
-&#35; nohup java -jar serv.jar --server.port=端口号 --pdftmpl.dir.src=PDF模板目录 --pdfout.dir.dest=PDF输出目录 >>./serv.log &<br />
-如：<br />&#35; nohup java -jar serv.jar --server.port=8091 --pdftmpl.dir.src=/root/tmpl2pdf/tmpl/ --pdfout.dir.dest=/root/tmpl2pdf/out/ >>./serv.log &
+&#35; nohup java -jar serv.jar --server.port=端口号 --pdftmpl.dir.src=PDF模板目录 --pdfout.dir.dest=PDF输出目录 --pdf.font=使用的字体文件 >>./serv.log &<br />
+如：<br />&#35; nohup java -jar serv.jar --server.port=8091 --pdftmpl.dir.src=/root/tmpl2pdf/tmpl/ --pdfout.dir.dest=/root/tmpl2pdf/out/ --pdf.font=/root/tmpl2pdf/font/simsun.ttc,1  >>./serv.log &
 
 &#35;&#35; Linux下检测服务是否正常<br />
 &#35; netstat -anp | grep 上一步指定的端口号
